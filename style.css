@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header {
+  background-image: url(./assets/mustangao.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 772px;
+  background-color: #ebeff2;
+}
+
+.nav-items {
+  display: flex;
+  gap: 96px;
+}
+
+.navlink {
+  cursor: pointer;
+}
+
+.main {
+  background-color: #ebeff2;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.carro1 {
+  display: flex;
+  flex-direction: column;
+  width: 281px;
+}
+
+.img-carro1 {
+  position: absolute;
+  z-index: 10;
+  width: 228;
+}
+
+.caixa1 {
+  border: 1px solid #1D2527;
+  border-radius: 24px;
+  margin-top: 110px;
+}
+
+.title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.icons-conteiner {
+  margin-left: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.button-wrapper {
+  width: 100%;
+  padding: 10px 32px;
+}
+
+.carro2 {
+  display: flex;
+  flex-direction: column;
+  width: 281px;
+}
+
+.img-carro2 {
+  position: absolute;
+  z-index: 10;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 228px;
+}
+
+.caixa2 {
+  border: 1px solid #1D2527;
+  border-radius: 24px;
+  margin-top: 110px;
+}
+
+.title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.carro3 {
+  display: flex;
+  flex-direction: column;
+  width: 281px;
+}
+
+.img-carro3 {
+  position: absolute;
+  z-index: 10;
+  margin-top: -120px;
+  margin-left: -40px;
+  width: 394px;
+  height: 272.2px;
+}
+
+.caixa3 {
+  border: 1px solid #1D2527;
+  border-radius: 24px;
+  margin-top: 110px;
+}
+
+.title3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #000000;
+  width: 300px;
+  height: 380px;
+  border-radius: 24px;
+  padding-left: 30px;
+  padding-top: 25px;
+  background-color: #fff;
+}
+
+.carroCard {
+  width: 240px;
+  height: 171px;
+  position: relative;
+  top: 60px;
+  left: 30px;
+  z-index: 1;
+}
+
+.liItem {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.ulCard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.textMustang {
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  padding-right: 40px;
+}
+
+.cardBtn {
+  width: 100%;
+  margin-top: 24px;
+  border: 1px solid #1D2527;
+  background: #EBEFF2;
+  cursor: pointer;
+  border-radius: 24px;
+  padding: 10px 32px;
+  transition: ease-in-out 0.3s;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cardBtn:hover {
+  background: rgb(159, 159, 159);
+}
+
+.rodape {
+  background-image: url(./assets/carrodorodape.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px;
+  background-color: white;
+  border-top: 96px solid #EBEFF2;
+}
+
+.rodape-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+
+}
+
+.texto-do-rodape {
+  margin-bottom: 10px;
+}
+
+.texto-do-rodape h1 {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 84px;
+}
+
+.texto-do-rodape span {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.login {
+  display: flex;
+  gap: 31px;
+  align-items: center;
+}
+
+.btnFooter {
+  border-radius: 4px;
+  padding: 8px 96px 8px 96px;
+  background-color: transparent;
+  color: #ebeff2;
+  cursor: pointer;
+  border: 1px solid #ebeff2;
+  width: 273px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.footer-without-text {
+  width: 45%;
+  height: 100%;
+}
+
+.footer-with-text {
+  width: 55%;
+  background: linear-gradient(270deg, rgba(29, 37, 39, 0.6) 0%, rgba(29, 37, 39, 0.6) 24.79%, rgba(29, 37, 39, 0.534) 54.48%, rgba(29, 37, 39, 0.006) 78.67%, rgba(29, 37, 39, 0) 100%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: end;
+  justify-content: center;
+  padding-right: 157px;
+  text-align: right;
+  color: white;
+  backdrop-filter: blur(3px);
+}
